@@ -31,7 +31,7 @@ Traditional image search systems struggle with:
 <img src="assets/basic-architecture.png" alt="Architecture" width="400">
 
 2. **Context Aware Architecture:**
-<img src="assets/context-aware-architecture.png" alt="Architecture" width="400">
+<img src="assets/context-aware-architecture.png" alt="Architecture" width="450">
 
 
 ## Key Components
