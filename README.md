@@ -1,6 +1,6 @@
 # ContextVision: A Context-Aware Multimodal Image Search Engine
 
-**ContextVision** is a multimodal image search engine that uses a fine-tuned CLIP model to perform semantic, context-aware search using either text or image input — with lightning-fast results powered by FAISS.
+> **ContextVision** is a multimodal image search engine that uses a fine-tuned CLIP model to perform semantic, context-aware search using either text or image input — with lightning-fast results powered by FAISS.
 
 <video src="https://github.com/user-attachments/assets/d53088d9-783d-4eb5-bb58-b99887e459d2" controls width="600"></video>
 
