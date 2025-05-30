@@ -4,6 +4,8 @@
 
 <video src="https://github.com/user-attachments/assets/d53088d9-783d-4eb5-bb58-b99887e459d2" controls width="600"></video>
 
+> 🚀 Achieved up to 352% improvement in retrieval metrics (Precision@5, Recall@5, MRR, nDCG@5) after fine-tuning CLIP, enabling highly accurate and context-aware image search.
+
 ## Problem Statement
 
 Traditional image search systems struggle with:
@@ -148,6 +150,18 @@ While the base CLIP model performed reasonably well, it often failed on composit
 | nDCG@5      | 0.783  | 1.00         | 78%      |
 
 > *Metrics are based on 100 text and image queries using Flickr8k, with exact-match ground truth.*
+
+**Comparison to Baseline:**  
+The table below shows the absolute and percent improvements over the baseline (pre-fine-tuning) model.
+
+| Metric       | Baseline | Fine-tuned | Difference | Percent Difference (%) |
+|--------------|----------|------------|------------|-----------------------|
+| Precision@5  | 0.048    | 0.176      | 0.128      | 266.67%               |
+| Recall@5     | 0.240    | 0.880      | 0.640      | 266.67%                |
+| MRR          | 0.166    | 0.751      | 0.585      | 352.41%                |
+| nDCG@5       | 0.184    | 0.783      | 0.599      | 325.54%                |
+
+> *Fine-tuning CLIP resulted in a 266–352% improvement across all key retrieval metrics compared to the baseline.*
 
 ## Features
 
